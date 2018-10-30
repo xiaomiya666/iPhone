@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>苹果</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+	<style>
+		body{
+			width: 100%;
+			height: 100%;
+			background-color: #e3e3e3;
+			position: relative; 	
+		}
+
+		.box1{
+			height: 40px;
+			width: 1260px;
+			background-color: #444444;
+      margin: 0 auto;
+			
+		}
+		
+		.box2{
+			height: 44px;
+			width:  1260px;
+			background-color: #333333;
+			position: fixed;
+			position: sticky;
+			top: 0;
+      z-index: 3;
+      margin: 0 auto;
+
+		}
+		.box2>.box{
+			width: 1000px;
+			height: 44px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+			line-height: 44px;
+			 
+		}
+		.box2>.box>a{
+            color: #fff;   
+		}
+		.box2>.box>a>.one1{
+			width: 16px;
+		}
+        .box2>.box>a>.one2{
+        	width: 26px;
+        }
+        .box2>.box>a>.one3{
+			width: 27px;
+		}
+        .box2>.box>a>.one4{
+        	width: 44px;
+        }.box2>.box>a>.one5{
+			width: 40px;
+		}
+        .box2>.box>a>.one6{
+        	width: 37px;
+        }.box2>.box>a>.one7{
+			width: 46px;
+			font-size: 12px;
+		}
+        .box2>.box>a>.one8{
+        	width: 16px;
+        }
+        .box2>.box>a>.one9{
+        	width: 14px;
+        }
+      .box2>.box>a:hover {
+    	color:pink;
+    }
+		.box3{
+			height: 86px;
+			width:  1260px;
+			background-color: #f6f6f6;
+			padding-top: 12px;
+			padding-bottom: 12px;
+      margin: 0 auto;
+
+		}
+		.box4{
+			height:704px;
+			width:  1260px;
+		 margin: 0 auto;
+			background-color: #ffffff;
+		}
+		.box4> .box{
+			height: 100%;
+			width: 980px;
+			padding-top: 92px;
+     margin: 0 auto;
+
+			padding-bottom: 145px;
+			/*position: relative;*/
+			
+		}
+		.box4> .box>.text{
+			width: 816px;
+			height: 186px;
+		
+			margin: 0 auto;
+			text-align: center;
+		
+
+		}
+		
+         .box4> .box>.text>h2{
+         	font-size: 66px;
+         	font-weight: 550;
+         	text-align: center;
+         	margin-top: 0px;
+            padding-top: 0px;
+         }
+          .box4> .box>.text>h4{
+         	font-size: 35px;
+         	font-weight: 400;
+         	text-align: center;
+            position: relative;
+            top: -55px;
+
+
+         }
+         .box4> .box>.text>a{
+         	font-size: 20px;
+         	font-weight: 400;
+            position: relative;
+            top:-80px; 
+            color: blue;
+
+         }
+		.box4> .box>.text .a:hover{
+			 text-decoration-line:none;
+		}
+		.box4> .box>.img{
+			width: 970px;
+			height: 206px;
+			background-image: url(./iphone/1.jpg);
+			background-repeat: no-repeat;
+			background-size: 970px 206px;
+            margin:72px auto 0;
+		}
+		.box5{
+      margin: 0 auto;
+
+			height:500px;
+			width: 1260px;
+			background-color:#b10e23;
+			display: flex;
+		}
+		.box5> .img{
+			width: 603px;
+			height: 500px;
+			background-image:url(./iphone/2.jpg);
+			background-size: 603px 500px;
+			background-repeat: no-repeat;
+	 
+		}
+		.box5> .box{
+			flex: 1;
+			background-color: #b10e23;
+			display: flex;
+			align-items: center;
+			padding-left: 25px;
+		}
+		.box5> .box>.text{
+			width: 632px;
+			height: 170px;
+			background-color: #b10e23;
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+			
+		}
+		.box5> .box>.text>p{
+			border: 1px solid #fff;
+			width: 100px;
+			height: 40px;
+			position: relative;
+			left: 266px;
+			line-height: 40px;
+      border-radius: 6%;
+		}
+		.box5> .box>.text>h1{
+			font-size: 48px;
+			text-align: center;
+
+		}
+		.box5> .box>.text>a{
+			font-size: 22px;
+			font-weight: 400px;
+           margin: 0 auto;
+           color: #fff;
+            
+		}
+		.box5> .box>.text>.a:hover{
+            text-decoration-line: none;
+		}
+		.box6{
+			height:500px;
+			width: 1260px;
+			background-color: #fff;
+			margin: 45px auto;
+			display: flex;
+      margin: 0 auto;
+
+		}
+		.box6>.left{
+			width: 588px;
+			height: 450px;
+			background-image: url(./iphone/3.jpg);
+			background-size: 588px 450px;
+            position: relative;
+            left: 80px;
+           top: 50px;
+		}
+		.box6>.right{
+			flex: 1;
+			
+			text-align: center;
+		}
+		.box6>.right>h2{
+			font-size: 42px;
+			font-weight: 400;
+			position: relative;
+			top: 100px;
+		}
+		.box6>.right>a{
+			font-size: 17px;
+			color: blue;
+			text-decoration-line: underline;
+			position: relative;
+			top: 80px;
+		}
+		.box7{
+			width: 1260px;
+			height: 766px;
+			display: flex;
+			background-color: #fff;
+			margin: 45px auto;
+		}
+        .box7>.left{
+        	width: 631px;
+        	height: 766px;
+        	text-align: center;
+        }
+         .box7>.left>img{
+         	width: 109px;
+         	height: 46px;
+        	background-repeat: no-repeat;
+        	position: relative;
+        	top: 240px;
+          left: 100px;
+         }
+        .box7>.left>h2{
+        	font-size: 48px;
+        	position: relative;
+        	top: 200px;
+          left: 100px;
+
+        }
+        .box7>.left>p{
+        	position: relative;
+        	top: 190px;
+        	font-size: 21px;
+          left: 100px;
+
+        }
+         .box7>.left>a{
+         	color: blue;
+         	font-size: 17px;
+          left: 100px;
+         	
+         	font-weight: 400px;
+         	position: relative;
+         	top: 190px;
+         }
+         .box7>.left a>.a{
+         	list-style: none;
+         }
+        .box7>.right{
+			width: 960px;
+			height: 717px;
+			background-image: url(./iphone/4.png);
+			background-size: 960px 717px;
+			background-repeat: no-repeat;
+   
+		}
+		.box8{
+			width: 1260px;
+			height: 800px;
+			background-image: url(./iphone/5.jpg);
+			background-size: 100% 800px;
+			background-repeat: no-repeat;
+			margin: 45px auto;
+			text-align: center;
+
+		}
+		.box8>h2{
+			font-size: 48px;
+			position: relative;
+	     	top: 300px;
+	     	left: 250px;
+		}
+		.box8>h4{
+			font-size: 28px;
+			position: relative;
+	     	top: 300px;
+	     	left: 250px;
+		}
+		.box8>p{
+			position: relative;
+	     	top: 300px;
+	     	left: 250px;
+		}
+	    .box8>a{
+	    	color: blue;
+	    	position: relative;
+	     	top: 300px;
+	     	left: 250px;
+
+	    }
+	     .box8>a:hover{
+	     	text-decoration-line: underline;
+	     }
+       .container{
+        width: 1260px;
+        overflow: hidden;
+        margin: 0 auto;
+       }
+	   .box9{
+	   	width: 1260px;
+	   	height: 800px;
+	   	margin: 0 auto;
+      margin-bottom: 45px;
+	   	background-color: #fff;
+        display: flex;
+        text-align: center;
+	   }
+	   .box9>.right{
+	   	width: 968px;
+	   	height: 800px;
+	   	background-image: url(./iphone/6.jpg);
+	   	background-size: 986px 800px;
+	   	background-repeat: no-repeat;
+	   	position:relative;
+      right: -360px;
+	   }
+      
+     .box9>.right{
+     	flex: 1;
+     }
+     .box9>.right>.text {
+      position: relative;
+      left: -680px;
+      top:380px;
+     }
+      .box9>.right h2{
+      	font-size: 24px;
+      }
+      .box9>.right h3{
+      	font-size: 48px;
+        position: relative;
+        top:-50px;
+      }
+      .box9>.right p{
+      	font-size: 17px;
+         position: relative;
+        top:-70px;
+      }
+      .box9>.right a{
+      	font-size: 17px;
+      	color: blue;
+         position: relative;
+        top:-80px;
+      }
+       .box9>.right a:hover{
+       	text-decoration-line: underline;
+       }
+       .box9>.right .one{
+        border: 1px solid #000;
+        width: 100px;
+        /*height: 40px;*/
+         position: relative;
+         left: 540px;
+        /* top:-20px;*/
+         border-radius: 6%;
+       }
+       .content{
+          width: 1260px;
+          margin: 0 auto;
+        }
+       .box10{
+       	width: 600px;
+       	height: 800px;
+       	background-color: #fff;
+       	float: left;  
+       
+       }
+       .box10::after{
+       	content: "";
+       	display: block;
+       	clear: both;
+       }
+      .box10>.one{
+        	float: left;
+           margin: 0 auto;
+         text-align: center;
+
+   }
+   .box10>.one {
+    position: relative;
+    left: 50px;
+    z-index: 3;
+   }
+    .box10>.one::after{
+    	 	content: "";
+       	display: block;
+       	clear: both;
+    }
+        .box10>.one>h2{
+	         font-size: 48px;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-bottom: 10px;
+       }
+        .box10>.one>p{
+        	font-size: 17px;
+        	 margin: 0 auto;
+        	 padding-top: 0px;
+        	 padding-bottom: 10px;
+        }
+         .box10>.one>a{
+        	font-size: 17px;
+            color: blue;
+        	 padding-top: 0px;
+        	 padding-bottom:20px;
+         }
+        .box10>.one>a:hover{
+        	text-decoration-line: underline;
+        }
+      .box10>.box{
+       	width: 600px;
+       	height: 583px;
+        background-image: url(./iphone/10.jpg);
+     	  background-size: 600px 583px;
+       	bottom: 0;
+      	position: relative;
+       	top:217px;
+     
+       }
+
+       .box11{
+       	width: 600px;
+       	height: 800px;
+       	background-color: #fff;
+        text-align: center;
+       	float: right;
+
+       }
+       .box11::after{
+       		content: "";
+       	display: block;
+       	clear: both;
+       }
+       .box11>.one{
+         float: right;
+       }
+        .box11>.one::after{
+        	content: "";
+       	display: block;
+       	clear: both;
+        }
+       .box11>.one>h2{
+       	font-size: 48px;
+       }
+        .box11>.one>p{
+       	font-size: 17px;
+       }
+        .box11>.one>a{
+       	font-size:17px;
+       	color: blue; 
+       }
+       .box11>.one>a:hover{
+       	text-decoration-line: underline;
+       }
+       .box11>.box{
+       	width: 575px;
+       	height: 384px;
+       	background-image: url(./iphone/11.jpg);
+       	background-size: 575px 384px;
+       	background-repeat: no-repeat;
+      	position: relative;
+       	top: 416px;
+       }
+       .box12{
+        margin: 0 auto;
+       	width: 1260px;
+       	height: 258px;
+       }
+       .box12::after{
+       	content: "";
+       	display: block;
+       	clear: both;
+       }
+       .box12>.left{
+        width: 600px;
+        height: 193px;
+        text-align: center;
+        float: left;
+       }
+       .box12>.left::after{
+       	content: "";
+       	display: block;
+       	clear: both;
+       }
+        .box12>.right{
+        width: 600px;
+        height: 193px;
+        text-align: center;
+        float: right;
+       }
+       .box12>.right::after{
+       	content: "";
+       	display: block;
+       	clear: both;
+       }
+       a{
+       	color: blue;
+       }
+       a:hover{
+       	text-decoration-line: underline;
+       }
+       .box13{
+       	width: 1260px;
+       	height: 800px;
+        margin: 0 auto;
+       }
+       .box13>.left{
+       	width: 600px;
+       	height: 800px;
+      
+       	float: left;
+        background-image: url(./iphone/zuo.jpg);
+
+        background-size: 608px 800px;
+        text-align: center;
+       }
+       .box13>.left>h2{
+       	font-size: 24px;
+       	color: #fff;
+       	position: relative;
+       	top: 50px;
+       }
+        .box13>.left>h3{
+        	font-size: 48px;
+            color: #fff;
+            position: relative;
+            left: 20px;
+        }
+         .box13>.left>a{
+         	font-size: 17px;
+         	float: left;
+            color: #fff;
+          
+              position: relative;
+            left: 200px;
+            top: -30px;
+         }
+        .box13>.left>a:hover{
+        	text-decoration-line: underline;
+        }
+       .box13>.right{
+       	width: 600px;
+       		height: 800px;
+        text-align: center;
+        float: right;
+        background-image: url(./iphone/you.jpg);
+
+        background-size: 608px 800px;
+       }
+         .box13>.right>h2{
+       	font-size: 24px;
+       	color: #fff;
+       	position: relative;
+       	top: 50px;
+       }
+        .box13>.right>h3{
+        	font-size: 48px;
+            color: #fff;
+            position: relative;
+            left: 20px;
+        }
+         .box13>.right>a{
+         	font-size: 17px;
+         	float: left;
+            color: #fff;
+          
+              position: relative;
+            left: 270px;
+            top: -30px;
+         }
+        .box13>.right>a:hover{
+        	text-decoration-line: underline;
+        }
+        .box14{
+        	width: 1260px;
+        	height: 800px;
+          margin: 0 auto;
+          overflow: hidden;
+        }
+        .box14>.left{
+         width: 600px;
+         height: 800px;
+         background-color: #fff;
+         float: left;
+         margin: 45px 0;
+        }
+         .box14>.left>.box{
+         width: 600px;
+         height: 455px;
+         background-image: url(./iphone/14zuo.jpg);
+         background-size: 600px 455px;
+        background-repeat: no-repeat;
+         	position: relative;
+         	top: 345px;
+
+         }
+         .box14>.left>.text{
+         	float: left;
+         	text-align: center;
+         }
+         .box14>.left>.text>h2{
+       	font-size: 24px;
+       	color: #000;
+       	position: relative;
+       	top: 50px;
+       	left:170px
+      
+       }
+        .box14>.left>.text>h3{
+        	font-size: 48px;
+            color: #000;
+           text-align: center;
+            position: relative;
+            left: 170px;
+                
+        }
+         .box14>.left>.text>a{
+         	font-size: 17px;
+         	float: left;
+              position: relative;
+            left: 270px;
+            top: -30px;
+
+         }
+          .box14>.right{
+         width: 600px;
+         height: 800px;
+         background-color: #fff;
+
+         float: right;
+         	margin: 45px 0;
+         
+
+        }
+         .box14>.right>.text{
+         float: left;
+         
+         	text-align: center;
+         }
+         .box14>.right>.text {
+            z-index: 6;
+         }
+         .box14>.right>.text>h2{
+       	font-size: 24px;
+       	color: #000;
+       	position: relative;
+       	top: 50px;
+       	left:170px
+      
+       }
+        .box14>.right>.text>h3{
+        	font-size: 48px;
+            color: #000;
+           text-align: center;
+            position: relative;
+            left: 170px;
+            z-index: 6;
+                
+        }
+         .box14>.right>.text>a{
+         	font-size: 17px;
+         	float: left;
+              position: relative;
+            left: 270px;
+            top: -30px;
+            z-index: 6;
+
+         }
+         .box14>.right>.box{
+         	width: 600px;
+         height: 628px;
+         	background-image: url(./iphone/14you.jpg);
+         background-size: 600px 628px;
+         	background-repeat: no-repeat;
+         	position: relative;
+
+         	top: 172px;
+         }
+         .box15{
+         	width: 1260px;
+         	height: 500px;
+         	background-image: url(./iphone/15.jpg);
+         	background-size: 100% 500px;
+         	background-repeat: no-repeat;
+         	margin: 0 auto;
+         	margin-bottom: 45px;
+         }
+         .box15>.text{
+             text-align: right;
+         }
+          .box15>.text>h3{
+          	font-size: 48px;
+          	color: #fff;
+          	position: relative;
+          	right: 200px;
+          	top: 120px;
+          }
+           .box15>.text>a{
+           	font-size: 17px;
+           	color: #fff;
+           	position: relative;
+           	right: 270px;
+          	top: 100px;
+           }
+        
+        
+          .box16{
+          	width: 1260px;
+          	height: 550px;
+         	background-color: #f2f2f2;      
+         	margin: 0 auto;	
+          }
+          .box16>.box{
+          	width: 908px;
+          	height: 162px;
+          	border-bottom: 1px solid #ccc;
+          margin: 0 auto; 
+          	
+          /*	margin-left: 200px;*/
+          }
+          .box16>.box p{
+          	font-size: 11px;
+            color: #888888;
+            display: inline-block;
+          }
+          .box16>.box a{
+            font-size: 11px;
+             color: #888888;
+            display:inline-block;
+          }
+          .box16>.box .a{
+            color: blue;
+          }
+          .box16>.box ul{
+            list-style: none;
+            float: left;
+           font-size: 11px;
+          }
+          .box16>.box ul li{
+            margin: 10px 50px 10px 50px;
+            position: relative;
+            left: -40px;
+            color: #888888;
+          }
+          .box16>.box ul li:first-child{
+            color: #000;
+          }
+           .box16>.box ul .one{
+            color: #000;
+          }
+          .box16>.box .xbox{
+            border-top: 1px solid #ccc;
+          }
+         .box16>.box .xbox a{
+          position: relative;
+          left: 50px;
+          padding: 10px;
+          height: 2px;
+          margin: 5px 0px;
+          border-right:  1px solid #ccc;
+          line-height: 2px;
+         }
+         .box16>.box .xbox #one{
+         border-right: none;
+         }
+          .box16>.box .xbox #two{
+          position: relative;
+          left: 300px;
+         border-right: none;
+
+         }
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2">
+		<div class="box">
+		<a href="" id="one1"  class="fa fa-apple"></a>
+	    <a href="" id="one2" ="one">Mac</a>
+	    <a href="" id="one3">iPad</a>
+	    <a href="" id="one4">iPhone</a>
+	    <a href="" id="one5">Watch</a>
+	    <a href="" id="one6">Music</a>
+	    <a href="" id="one7">技术支持</a>
+	    <a href="" id="one8" class="fa fa-search"></a>
+	    <a href="" id="one9" class="fa fa-apple"></a>
+        
+		</div>
+	</div>
+	<div class="box3"></div>
+	<div class="box4">
+		<div class="box">
+			<div class="text">
+
+				<h2>iPhone X</h2>
+				<h4> hello,未来</h4>
+					<a href="" class="">进一步了解 </a>
+					  <a href="" class="a">>&nbsp;&nbsp;</a>
+				    <a href="" class="">购买</a>
+            <a href="" class="a">></a>
+			
+
+			</div>
+			<div class="img">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="box5">
+		<div class="img"></div>
+		<div class="box">
+		     <div class="text">
+		        <p>特别版</p>
+		     	<h1>iPhone 8,更以红色呈现。</h1>
+		     	 <a href="" class="">进一步了解</a>
+            <a href="" class="a">>&nbsp;&nbsp;&nbsp;</a>
+			    	<a href="" class="">购买</a>	
+            <a href="" class="a">></a>
+
+		     </div>
+		</div>
+	</div>
+
+    <div class="box6">
+		<div class="left"></div>
+		<div class="right">
+			<h2>比较各款<br>
+			iPhone机型</h2>
+			<a href="">找到适合你的iPhone</a>
+		</div>
+		</div>
+	</div>
+  
+    <div class="box7">
+    	<div class="left">
+        <img src="./iphone/pay.jpg" alt="">
+    		<h2>刷公交<br>叮一声，就通行。</h2>
+    		<p>Apple Pay 现已支持北京一卡通和上海交通卡</p>
+    		<a href="">进一步了解</a>
+        <a href="" style="list-style:none">&nbsp;&nbsp;></a>
+    	</div>
+    	<div class="right">
+    	
+    	</div>
+    </div>
+    <div class="box8">
+    	<h2>增强现实</h2>
+    	<h4>一个全新的世界，就在你身边</h4>
+    	<p>iPhone专为新一代增强实现类app而打造。从此，无论是工<br>作、学习和玩乐，还是你与现实世界沟通的方式，都将发生蜕<br>变</p>
+    	<a href="">进一步了解</a>
+        <a href="" style="list-style:none">&nbsp;&nbsp;></a>
+
+    </div>
+    <div class="container">
+      <div class="box9">
+  
+      <div class="right">
+      <div class="text">
+      <h2>ios 12</h2>
+      <h3>力量与你同在</h3>
+      <p>ios 12经过精心设计，让iPhone和iPad用起来更<br>快速、更灵敏，体验更惊喜</p>
+      <a href="">查看预览></a>
+      <p class="one">金秋推出</p>
+  </div>
+     
+  </div>
+  </div>
+    </div>
+	
+  <div class="content">
+    <div class="box10">
+      <div class="one">
+       <h2>iPhone 年年换新计划</h2>
+      <p>升级到新款iPhone，轻轻松松*。</p>
+      <a href="">进一步了解></a>
+      <br><br><br>
+      <p>已加入iPhone年年换新计划？</p>
+      <a href="">查询升级换购资格></a>
+   </div>
+  <div class="box"></div>
+  </div>
+    <div class="box11">
+      <div class="one">
+        <h2>把你手里的智能手机，变成心里想要的iPhone</h2>
+        <p>最高可获得2,095的折抵优惠换购iPhone**。通<br>过Apple GiveBack回馈计划，用你符合条件的智能手<br>机来以旧换新。这即有益于你，也有益于地球。</p>
+        <a href="">进一步了解></a>
+      </div>
+    <div class="box"></div>
+  </div>
+  </div>
+	
+
+	<div class="box12">
+		<div class="left">
+			<h2>分期付款</h2>
+		    <p>符合条件的信用卡用户可选择<br><br>灵活的分期付款方式</p>
+        <br>
+		    <a href="">进一步了解></a>
+		</div>
+		<div class="right">
+			<h2>免费送货</h2>
+		    <p>享受免费送货上门服务</p><br>
+		    <a href="">进一步了解></a>
+		</div>
+	</div>
+	<div class="box13">
+		<div class="left">
+			<h2>换成iPhone的理由</h2>
+			<h3>有了iPhone，<br>生活多轻松。</h3>
+			<a href="">进一步了解></a>
+			<a href="">购买iPhone></a>
+		</div>
+		<div class="right">
+			<h2>使用技巧</h2>
+			<h3>iPhone X的<br>正确打开方式。</h3>
+			<a href="">观看影片></a>
+		</div>
+	</div>
+    <div class="box14">
+    	<div class="left">
+    	  <div class="text">
+    	    <h2>AirPods</h2>
+			<h3>无线，无繁琐<br>只有妙不可言</h3>
+			<a href="">进一步了解></a>
+	     </div>
+    		<div class="box"></div>
+    	</div>
+    	<div class="right">
+    	<div class="text">
+    	    <h2>配件</h2>
+			<h3>百般搭配<br>一样惹人注目</h3>
+			<a href="">选购></a>
+	     </div>
+    		<div class="box"></div>
+    	</div>
+    </div>
+    <div class="box15">
+    	<div class="text">
+    		
+			<h3>使用iPhone<br>拍摄的窍门</h3>
+			<a href="">进一步了解></a>
+    	</div>
+    </div>
+    <div class="box16">
+      <div class="box">
+     <br>
+      <p>只有符合 Apple 指定条件的 iPhone 才可参与本计划。</p>
+      <p>** 实际折抵价值取决于你用来折抵的智能手机的状况和型号。年满 18 周岁及以上者才可参与本计划。该服务可能仅在部分 Apple Store 零售店提供，并且仅限于部分符合条件的设备。Apple 保留出于任何原因拒绝或限制任何设备 (及其数量) 的权利。现有设备的折算价值可用于冲抵购买新的 Apple 设备。其他条款请参见 www.apple.com/cn/giveback。</p>
+      <p>*** iCloud 在中国内地由云上贵州大数据产业发展有限公司运营。</p>
+      <p>产品图像仅供参考，请以实际销售实物为准。</p>
+      <p>所示的某些增强现实类 app 可能仅适用于部分地区或语言。</p>
+      <a href="" class="fa fa-apple"></a>
+      <br><br><br><br>
+      <a href="">>&nbsp;</a>
+      <p>iphone</p>
+      <br>
+      <ul>
+        <li>选购及了解</li>
+        <li><a href="">Mac</a></li>
+       <li><a href="">Mac</a></li>
+        <li><a href="">Mac</a></li>
+       <li><a href="">Mac</a></li>
+        <li><a href="">Mac</a></li>
+       <li><a href="">Mac</a></li>
+        <li><a href="">Mac</a></li>
+       <li><a href="">Mac</a></li>
+       <li><a href="">Mac</a></li>
+      
+      </ul>
+
+      <ul>
+        <li>Apple Store 商店</li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href=""  class="one">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+        <li><a href="">查找零售店</a></li>
+       
+      </ul>
+      <ul>
+        <li>教育应用</li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="" class="one">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+        <li><a href="">Apple 与教育</a></li>
+      </ul>
+      <ul>
+        <li>账户</li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+        <li><a href="" class="one">管理你的 Apple ID</a></li>
+        <li><a href="">管理你的 Apple ID</a></li>
+      </ul>
+      <ul>
+        <li>关于 Apple</li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+        <li><a href="N">ewsroom</a></li>
+        <li><a href="">Newsroom</a></li>
+      </ul>
+      <br>
+      <br><br><br>
+      <br><br><br>
+      <br><br><br>
+      <br><br><br><br>
+      <p>更多选购方式：前往，</p>
+      <a href="" class="a"> Apple Store 零售店</a>
+      <p>致电 400-666-8800 或查找在你附近的</p>
+      <a href="" class="a">授权经销商</a>
+      <p>。</p>
+      <div class="xbox">
+        <p>Copyright © 2018 Apple Inc. 保留所有权利。</p>
+        <a href="">隐私政策</a>  
+        <a href="">使用条款</a>
+        <a href="">销售政策</a>
+        <a href="">法律信息</a>
+        <a href="" id="one">网站地图</a>
+        <a href="" id="two">中国</a>
+      </div>
+     </div>
+   </div>
+
+</body>
+</html>
